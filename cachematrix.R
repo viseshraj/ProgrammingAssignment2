@@ -1,6 +1,6 @@
 #Function to create spl matrix object to enable environmental place holders
 #Description ::
-#The variables fun1, fun2 & fun3 hold the pointers to the environment where caching of the inverse matrix is done.
+#The functions fun1, fun2 & fun3 hold the pointers to the environment where caching of the inverse matrix is done.
 #This logic is based on Lexical Scoping
 makeCacheMatrix <- function(squarematrix){
   inverseCache <- NULL
